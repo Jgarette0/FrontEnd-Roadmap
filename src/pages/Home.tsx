@@ -1,11 +1,15 @@
-import { Button } from "@/components/ui/button";
-
-export function HomePage() {
+import { Header } from "@/components/Header";
+import { Card } from "@/components/ui/card";
+{
+  /* <DownloadPdf />
+<img src="./frontend.svg" alt="" /> */
+}
+export default function HomePage() {
   return (
     <>
-      <Button>Home Page!</Button>
+      <Card className="flex flex-col w-full border-none">
+        <Header />
+      </Card>
     </>
   );
 }
-
-export default HomePage;
