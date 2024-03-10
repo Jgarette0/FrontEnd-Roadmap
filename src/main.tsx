@@ -5,12 +5,13 @@ import HomePage from "./pages/Home";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AboutPage from "./pages/About";
 import NotFoundPage from "./pages/404NotFoundPage";
-import ContactPage from "./pages/Contact";
 import ProfilePage from "./pages/Profiles";
 import { ProfileRouter } from "./pages/ProfileRouter";
 import { ThemeProvider } from "@/components/ui/theme-provider";
 import { ClerkProvider } from "@clerk/clerk-react";
 import Authentication from "./pages/Auth";
+import PhotographyPage from "./pages/Photography";
+import RoadmapPage from "./pages/Roadmap";
 // Import your publishable key
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
 
@@ -32,8 +33,12 @@ const router = createBrowserRouter([
     element: <HomePage />,
   },
   {
-    path: "/Contact",
-    element: <ContactPage />,
+    path: "/Photography",
+    element: <PhotographyPage />,
+  },
+  {
+    path: "/Roadmap",
+    element: <RoadmapPage />,
   },
   {
     path: "/Profiles",

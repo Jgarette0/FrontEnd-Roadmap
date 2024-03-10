@@ -20,13 +20,13 @@ export function BreadcrumbNav() {
     <Breadcrumb>
       <BreadcrumbList>
         <BreadcrumbItem>
-          <Link to="/Home">
+          <Link to="/Photography">
             <BreadcrumbLink href="/">Photography</BreadcrumbLink>
           </Link>
         </BreadcrumbItem>
         <BreadcrumbSeparator />
         <BreadcrumbItem>
-          <Link to="/Home">
+          <Link to="/Roadmap">
             <BreadcrumbLink href="/">Roadmap</BreadcrumbLink>
           </Link>
         </BreadcrumbItem>
@@ -38,11 +38,11 @@ export function BreadcrumbNav() {
               <span className="sr-only">Toggle menu</span>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="start">
-              <Link to="/prfiles">
-                <DropdownMenuItem>Documentation</DropdownMenuItem>
-              </Link>
-              <Link to="/contact">
+              <Link to="/reference">
                 <DropdownMenuItem>Reference</DropdownMenuItem>
+              </Link>
+              <Link to="/profiles">
+                <DropdownMenuItem>Playground</DropdownMenuItem>
               </Link>
               <Link to="/about">
                 <DropdownMenuItem>GitHub</DropdownMenuItem>
@@ -59,7 +59,7 @@ export function BreadcrumbNav() {
         <BreadcrumbSeparator />
         <BreadcrumbItem>
           <Link to="/home">
-            <BreadcrumbPage>Home</BreadcrumbPage>
+            <BreadcrumbLink>Home</BreadcrumbLink>
           </Link>
         </BreadcrumbItem>
       </BreadcrumbList>
