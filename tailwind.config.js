@@ -52,6 +52,16 @@ module.exports = {
           foreground: "hsl(var(--card-foreground))",
         },
       },
+      fontSize: {
+        largeTx: "9.6rem",
+        shortTx: "4rem",
+      },
+      letterSpacing: {
+        ls: "0.15rem", // Add a new letter spacing size
+      },
+      wordSpacing: {
+        2: ".25rem", // Add a new word spacing size
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
@@ -73,6 +83,21 @@ module.exports = {
       },
       maxWidth: {
         "5.5xl": "66rem", // 1056px
+      },
+      animation: {
+        spotlight: "spotlight 2s ease .75s 1 forwards",
+      },
+      keyframes: {
+        spotlight: {
+          "0%": {
+            opacity: 0,
+            transform: "translate(-72%, -62%) scale(0.5)",
+          },
+          "100%": {
+            opacity: 1,
+            transform: "translate(-50%,-40%) scale(1)",
+          },
+        },
       },
     },
   },

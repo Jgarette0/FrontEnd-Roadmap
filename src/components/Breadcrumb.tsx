@@ -21,7 +21,13 @@ export function BreadcrumbNav() {
       <BreadcrumbList>
         <BreadcrumbItem>
           <Link to="/Home">
-            <BreadcrumbLink href="/">FrontEnd Roadmap</BreadcrumbLink>
+            <BreadcrumbLink href="/">Photography</BreadcrumbLink>
+          </Link>
+        </BreadcrumbItem>
+        <BreadcrumbSeparator />
+        <BreadcrumbItem>
+          <Link to="/Home">
+            <BreadcrumbLink href="/">Roadmap</BreadcrumbLink>
           </Link>
         </BreadcrumbItem>
         <BreadcrumbSeparator />
