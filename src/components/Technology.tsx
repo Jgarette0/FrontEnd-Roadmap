@@ -18,7 +18,7 @@ export function Technologies() {
         <Button variant="outline">Technologies</Button>
       </DrawerTrigger>
       <DrawerContent>
-        <div className="flex flex-col place-items-center mx-auto w-full max-w-sm">
+        <div className="flex flex-col place-items-center mx-auto w-full max-w-md">
           <DrawerHeader className="flex flex-col place-items-center">
             <DrawerTitle>Tools & Tech used</DrawerTitle>
             <DrawerDescription>Vite, React, Tailwind...</DrawerDescription>
@@ -29,7 +29,9 @@ export function Technologies() {
 
           <DrawerFooter>
             <DrawerClose asChild>
-              <Button variant="outline">Close</Button>
+              <Button className="w-64" variant="outline">
+                Close
+              </Button>
             </DrawerClose>
           </DrawerFooter>
         </div>

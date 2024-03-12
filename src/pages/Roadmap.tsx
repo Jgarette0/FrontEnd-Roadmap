@@ -1,18 +1,24 @@
 import { Header } from "@/components/Header";
+import { LayoutRoadmap } from "@/components/Layout";
+import DownloadPdf from "@/components/Pdf";
+import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 
 export function RoadmapPage() {
   return (
     <>
-      <Card className="flex flex-col gap-10 w-full h-screen border-none">
-        <Card className="flex flex-col gap-10 w-full">
-          <Header />
-        </Card>
-        <Card className="flex flex-col place-items-center justify-center h-screen border-none">
-          <h1 className="font-roboto font-extrabold text-6xl italic opacity-80 hover:opacity-100 select-none text-shortTx sm:text-largeTx text-center">
-            This is Roadmap Page
-          </h1>
-        </Card>
+      <Card className="flex flex-col w-full border-none">
+        <Header />
+        <div className="flex flex-row gap-3 px-4 h-36 place-items-center">
+          <Button className="w-24">Share</Button>
+          <DownloadPdf />
+        </div>
+        <img
+          src="/frontend.svg"
+          alt=""
+          className="absolute opacity-20 max-w-5.5xl top-48 hidden"
+        />
+        <LayoutRoadmap />
       </Card>
     </>
   );

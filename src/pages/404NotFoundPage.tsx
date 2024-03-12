@@ -9,7 +9,7 @@ export function NotFoundPage() {
       <Card className="flex flex-col w-full border-none">
         <Header />
         <img
-          className="w-full mt-40 sm:mt-2"
+          className="w-full mt-40 md:mt-2"
           src="/404.svg"
           alt="404 Not Found"
         />

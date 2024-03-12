@@ -9,7 +9,7 @@ export function PhotographyPage() {
           <Header />
         </Card>
         <Card className="flex flex-col place-items-center justify-center h-screen border-none">
-          <h1 className="font-roboto font-extrabold text-6xl italic opacity-80 hover:opacity-100 select-none text-shortTx sm:text-largeTx text-center">
+          <h1 className="font-roboto font-extrabold text-6xl italic opacity-80 hover:opacity-100 select-none text-shortTx md:text-largeTx text-center">
             This is Photography Page
           </h1>
         </Card>

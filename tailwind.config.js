@@ -57,15 +57,28 @@ module.exports = {
         shortTx: "4rem",
       },
       letterSpacing: {
-        ls: "0.15rem", // Add a new letter spacing size
+        ls: "0.15rem",
       },
       wordSpacing: {
-        2: ".25rem", // Add a new word spacing size
+        2: ".25rem",
       },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      height: {
+        3000: "3000px",
+        1000: "1000px",
+        550: "550px",
+        226: "226px",
+        250: "250px",
+        375: "375px",
+        192: "192px",
+        60: "60px",
+      },
+      width: {
+        540: "536px",
       },
       keyframes: {
         "accordion-down": {
