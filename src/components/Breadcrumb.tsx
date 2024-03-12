@@ -20,9 +20,13 @@ export function BreadcrumbNav() {
     <Breadcrumb>
       <BreadcrumbList>
         <BreadcrumbItem>
-          <Link to="/Photography">
-            <BreadcrumbLink href="/">Photography</BreadcrumbLink>
-          </Link>
+          <a
+            href="https://abanganjilian.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <BreadcrumbLink>Photography</BreadcrumbLink>
+          </a>
         </BreadcrumbItem>
         <BreadcrumbSeparator />
         <BreadcrumbItem>

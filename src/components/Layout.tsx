@@ -5,11 +5,18 @@ import "../styles/global.css";
 export function LayoutRoadmap() {
   return (
     <>
+      <Button
+        variant="secondary"
+        className="font-mono w-32 h-8 md:hidden fixed right-4 top-24 p-2 text-center"
+      >
+        Zoom-in to see
+      </Button>
+
       <div className="try flex flex-col place-items-center justify-start box-border">
         <div className="flex flex-col  md:top-20 ">
           <div className="h-3000 flex flex-col ">
             <div className="0 h-226 flex flex-col place-items-center justify-end gap-2 ">
-              <Card className="h-16 border-dotted border-l-4 rounded mb-2" />
+              <Card className=" md:h-16 border-dotted border-l-4 rounded mb-2" />
               <div className=" text-4xl">Front-End</div>
               <Card className="h-16 border-l-4 rounded mb-2" />
             </div>
@@ -481,7 +488,7 @@ export function LayoutRoadmap() {
               </div>
               <div className="flex flex-col w-full  h-12  place-items-end">
                 <div className="flex flex-row justify-center w-52 pl-1">
-                  <Card className="0  h-12  border-r-4" />
+                  <Card className="0 mr-1 h-12  border-r-4" />
                 </div>
               </div>
               <div className="flex flex-col w-full  h-12  place-items-end">
@@ -490,7 +497,7 @@ export function LayoutRoadmap() {
                     Apollo
                   </Button>
                   <div className="flex flex-col justify-center">
-                    <Card className="w-8 border-dotted  border-b-4 h-1 rounded" />
+                    <Card className="w-9 border-dotted  border-b-4 h-1 rounded" />
                   </div>
                   <Button className="w-44"> GraphQL</Button>
                 </div>
@@ -500,7 +507,7 @@ export function LayoutRoadmap() {
                   <Button variant="outline" className="w-44">
                     Relay Modern
                   </Button>
-                  <Card className="0  h-12 ml-24 border-r-4" />
+                  <Card className="0 mr-1 h-12 ml-24 border-r-4" />
                 </div>
               </div>
               <div className=" flex flex-row ">

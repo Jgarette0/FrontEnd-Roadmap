@@ -3,14 +3,15 @@ import { LayoutRoadmap } from "@/components/Layout";
 import DownloadPdf from "@/components/Pdf";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import "../styles/global.css";
 
 export function RoadmapPage() {
   return (
     <>
       <Card className="flex flex-col w-full border-none">
         <Header />
-        <div className="flex flex-row gap-3 px-4 place-items-center">
-          <Button className="w-18 h-9">Share</Button>
+        <div className="btn flex flex-row gap-3 px-4 place-items-center">
+          <Button className="w-18 h-9 hidden md:block">Share</Button>
           <DownloadPdf />
         </div>
         {/* <img
