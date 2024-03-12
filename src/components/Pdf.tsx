@@ -11,7 +11,11 @@ function DownloadPdf() {
     document.body.removeChild(link);
   };
 
-  return <Button onClick={handleDownload}>Download PDF</Button>;
+  return (
+    <Button className="w-18 h-9" onClick={handleDownload}>
+      Download PDF
+    </Button>
+  );
 }
 
 export default DownloadPdf;

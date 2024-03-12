@@ -1,3 +1,18 @@
+@media (max-width: 768px) {
+  .try {
+    transform: scale(0.33);
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+  }
+  .try {
+    margin-left: -350px;
+    margin-top: -880px;
+  }
+}
+
 /* div {
-  border: 1px solid red;
+  border: 1px solid gold;
 } */
