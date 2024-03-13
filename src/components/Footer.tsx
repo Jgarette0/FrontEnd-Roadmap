@@ -1,4 +1,5 @@
 import { Github, Facebook, Instagram, ExternalLink } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -9,14 +10,14 @@ export default function Footer() {
             <h5 className="font-bold uppercase mb-6">Details</h5>
             <ul className="space-y-4">
               <li>
-                <a className="hover:underline" href="#">
+                <Link to="/About" className="hover:underline">
                   About me
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="hover:underline" href="#">
+                <Link to="/Reference" className="hover:underline">
                   Reference
-                </a>
+                </Link>
               </li>
 
               <li className="font-bold">CONTACT</li>
@@ -24,16 +25,34 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <h5 className="font-bold uppercase mb-6">Source Code</h5>
+            <h5 className="font-bold uppercase mb-6">
+              <a
+                href="https://abanganjilian.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Source Code
+              </a>
+            </h5>
             <ul className="space-y-4">
               <li>
-                <a className="hover:underline flex flex-row gap-1" href="#">
+                <a
+                  className="hover:underline flex flex-row gap-1"
+                  href="https://github.com/Jgarette0/Frontend-Roadmap"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Github
                   <ExternalLink size="1rem" />
                 </a>
               </li>
               <li>
-                <a className="hover:underline flex flex-row gap-1" href="#">
+                <a
+                  className="hover:underline flex flex-row gap-1"
+                  href="https://drive.google.com/drive/folders/1swH7RZnbFfqCLt4pHTpQYw9tdHB373Sb?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Google Drive
                   <ExternalLink size="1rem" />
                 </a>
@@ -56,7 +75,7 @@ export default function Footer() {
             <h5 className="font-bold uppercase mb-6">HOSTED AT</h5>
             <ul className="space-y-4">
               <li>
-                <a className="hover:underline" href="#">
+                <a className="hover:underline" href="https://vercel.com">
                   Vercel
                 </a>
               </li>
@@ -65,13 +84,28 @@ export default function Footer() {
           <div>
             <h5 className="font-bold uppercase mb-6">My Social</h5>
             <div className="flex space-x-4">
-              <a className="hover:underline" href="#">
+              <a
+                className="hover:underline"
+                href="https://github.com/Jgarette0"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Github className="h-6 w-6" />
               </a>
-              <a className="hover:underline" href="#">
+              <a
+                className="hover:underline"
+                href="https://thisisnotajumpscare.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Facebook className="h-6 w-6" />
               </a>
-              <a className="hover:underline" href="#">
+              <a
+                className="hover:underline"
+                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Instagram className="h-6 w-6" />
               </a>
             </div>
@@ -80,11 +114,21 @@ export default function Footer() {
         <div className="border-t border-gray-700 mt-8 pt-6 flex flex-col md:flex-row justify-between text-sm">
           <div className="mb-4 md:mb-0"></div>
           <div className="space-x-6 w-full flex flex-row justify-center">
-            <a className="hover:underline" href="#">
+            <a
+              className="hover:underline"
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Legal and Policies
             </a>
             <span>© Abangan</span>
-            <a className="hover:underline" href="#">
+            <a
+              className="hover:underline"
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Philippines
             </a>
           </div>

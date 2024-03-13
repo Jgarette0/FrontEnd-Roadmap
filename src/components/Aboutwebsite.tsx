@@ -46,7 +46,7 @@ export function MyWebsite() {
           <div className="flex flex-col gap-1">
             <div className="font-mono text-xl md:text-3xl hover:italic h-12 flex flex-col justify-center">
               <Button
-                className="flex flex-row w-32 font-mono text-xl md:text-3xl  h-12 justify-center text-left "
+                className="flex flex-row w-48 font-mono text-xl md:text-3xl  h-12 justify-center pl-2 "
                 variant="outline"
               >
                 🔒
@@ -63,14 +63,22 @@ export function MyWebsite() {
             <div className="font-mono text-xl md:text-3xl h-12 flex flex-col justify-center place-items-center">
               <div>🔥Programming Language Used</div>
             </div>
-            <div className="flex flex-row gap-4 place-items-center justify-center">
-              <RiOpenaiFill className="size-28" />
-            </div>
+            <a
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="flex flex-row gap-4 place-items-center justify-center">
+                <RiOpenaiFill className="size-28" />
+              </div>
+            </a>
           </div>
         </div>
+
         <div className="font-mono text-xl md:text-3xl h-12 flex flex-col justify-center place-items-center">
           <div>Chat GPT</div>
         </div>
+
         <div className="border-b w-full m-4 border-gray-700"></div>
       </Card>
     </>
