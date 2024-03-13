@@ -1,0 +1,13 @@
+{
+  "routes": [
+    { "src": "/About", "dest": "/" },
+    { "src": "/Home", "dest": "/" },
+    { "src": "/Photography", "dest": "/" },
+    { "src": "/Roadmap", "dest": "/" },
+    { "src": "/Profiles", "dest": "/" },
+    { "src": "/Profiles/:profileId", "dest": "/" },
+    { "src": "/Signin", "dest": "/" },
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/" }
+  ]
+}
