@@ -8,12 +8,10 @@ import "../styles/global.css";
 export function RoadmapPage() {
   return (
     <>
-      <Card className="flex flex-col w-full border-none">
+      <Card className="flex flex-row md:flex-col w-full border-none ">
         <Header />
-        <div className="btn flex flex-row gap-3 px-4 place-items-center">
-          <Button className="w-18 h-9 hidden md:block">Share</Button>
-          <DownloadPdf />
-        </div>
+        <DownloadPdf />
+        <div className="btn flex flex-row gap-3 px-4 place-items-center"></div>
         {/* <img
           src="/frontend.svg"
           alt=""

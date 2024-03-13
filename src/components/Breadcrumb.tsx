@@ -14,21 +14,12 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Link } from "react-router-dom";
+import { ExternalLink } from "lucide-react";
 
 export function BreadcrumbNav() {
   return (
     <Breadcrumb>
       <BreadcrumbList>
-        <BreadcrumbItem>
-          <a
-            href="https://abanganjilian.vercel.app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <BreadcrumbLink>Photography</BreadcrumbLink>
-          </a>
-        </BreadcrumbItem>
-        <BreadcrumbSeparator />
         <BreadcrumbItem>
           <Link to="/Roadmap">
             <BreadcrumbLink href="/">Roadmap</BreadcrumbLink>
@@ -48,9 +39,21 @@ export function BreadcrumbNav() {
               <Link to="/profiles">
                 <DropdownMenuItem>Playground</DropdownMenuItem>
               </Link>
-              <Link to="/about">
-                <DropdownMenuItem>GitHub</DropdownMenuItem>
-              </Link>
+
+              <DropdownMenuItem>
+                {" "}
+                <a
+                  href="https://abanganjilian.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <BreadcrumbLink>
+                    <div className="flex flex-row gap-1">
+                      Photography <ExternalLink size=".8rem" />
+                    </div>
+                  </BreadcrumbLink>
+                </a>
+              </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
         </BreadcrumbItem>

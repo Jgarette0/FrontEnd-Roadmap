@@ -16,3 +16,14 @@
 /* div {
   border: 1px solid gold;
 } */
+.loader {
+  border-top-color: #030712;
+  border-left-color: #03071249;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,5 +1,5 @@
 import { Button } from "./ui/button";
-
+import { Download } from "lucide-react";
 function DownloadPdf() {
   const handleDownload = () => {
     const url = "/frontend.pdf"; // Assuming frontend.pdf is in the public directory
@@ -12,8 +12,9 @@ function DownloadPdf() {
   };
 
   return (
-    <Button className="w-18 h-9" onClick={handleDownload}>
-      Download PDF
+    <Button className="p-2 mt-2" variant="secondary" onClick={handleDownload}>
+      <p className="font-mono mr-2 text-xl hidden md:block">Download</p>
+      <Download />
     </Button>
   );
 }

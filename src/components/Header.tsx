@@ -11,7 +11,7 @@ export function Header() {
         <div className="flex flex-row-reverse md:flex-row-reverse place-items-center gap-2">
           <ModeToggle />
           <Technologies />
-          <Button variant="outline">
+          <Button variant="secondary" className="">
             <Authentication />
           </Button>
         </div>

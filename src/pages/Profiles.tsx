@@ -1,10 +1,10 @@
 import { NavLink, Outlet } from "react-router-dom";
 
 export function ProfilePage() {
-  const profiles = ["Home", "About", "Section", "Roadmap", "Secret"];
+  const profiles = ["Home", "About", "Bintana", "Roadmap", "Secret"];
   return (
     <>
-      <div className="navbar font-mono flex flex-row gap-10 text-xl p-5 ">
+      <div className="navbar font-mono flex flex-col fixed top-64 left-0 gap-10 text-xl p-5 ">
         {profiles.map((profile) => (
           <NavLink
             key={profile}
