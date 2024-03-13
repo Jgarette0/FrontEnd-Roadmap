@@ -1,5 +1,4 @@
 import { ModeToggle } from "@/components/ModeToggle";
-import { Card } from "@/components/ui/card";
 import Authentication from "@/pages/Auth";
 import { Button } from "./ui/button";
 import { BreadcrumbNav } from "./Breadcrumb";
