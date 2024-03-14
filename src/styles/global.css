@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
   .try {
-    transform: scale(0.28);
+    transform: scale(0.25);
     position: fixed;
     top: 0;
     left: 0;
@@ -9,7 +9,7 @@
   }
   .try {
     margin-left: -350px;
-    margin-top: -1012px;
+    margin-top: -1047px;
   }
 }
 
