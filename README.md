@@ -3,8 +3,9 @@
 ### Clone Repository
 
 To get started with the project, you can clone this repository using the following command:
-  -  git clone `[index.ph](https://github.com/Jgarette0/Frontend-Roadmap.git)https://github.com/Jgarette0/Frontend-Roadmap.gitp` .
-
+```clone the repository
+git clone https://github.com/Jgarette0/Frontend-Roadmap.git
+```
 
 ## Alternative is to Download the Google Drive
 -[Google Drive Folder](https://drive.google.com/drive/folders/1swH7RZnbFfqCLt4pHTpQYw9tdHB373Sb?usp=sharing)
