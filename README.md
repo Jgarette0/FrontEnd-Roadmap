@@ -1,3 +1,6 @@
+# Frontend Roadmap
+
+This project is a frontend roadmap that serves as a platform for sharing journeys and experiences in the field of Information Technology, documenting projects, tutorials, and insights into programming and web development.
 
 ## Getting Started
 
@@ -32,3 +35,6 @@ tailwind.config.js: Tailwind CSS configuration file.
 vite.config.ts: Vite configuration file.
 Contributing
 If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. Your contributions are greatly appreciated!
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
