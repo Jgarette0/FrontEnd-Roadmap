@@ -21,7 +21,7 @@ export default function Footer() {
               </li>
 
               <li className="font-bold">CONTACT</li>
-              <li className="font-bold">(+639 )123456789</li>
+              <li className="font-bold">0123456789</li>
             </ul>
           </div>
           <div>
