@@ -2,6 +2,7 @@
   "routes": [
     { "src": "/About", "dest": "/" },
     { "src": "/Home", "dest": "/" },
+    { "src": "/Reference", "dest": "/" },
     { "src": "/Photography", "dest": "/" },
     { "src": "/Roadmap", "dest": "/" },
     { "src": "/Profiles", "dest": "/" },

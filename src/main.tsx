@@ -13,6 +13,7 @@ import Authentication from "./pages/Auth";
 import PhotographyPage from "./pages/Photography";
 import RoadmapPage from "./pages/Roadmap";
 import LoadingSpinner from "./components/LoadingSpinner";
+import ReferencePage from "./pages/Reference";
 
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
 
@@ -65,6 +66,10 @@ const App = () => {
     {
       path: "/Signin",
       element: <Authentication />,
+    },
+    {
+      path: "/Reference",
+      element: <ReferencePage />,
     },
   ]);
 

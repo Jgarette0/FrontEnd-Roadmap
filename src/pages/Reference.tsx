@@ -1,19 +1,23 @@
+import Footer from "@/components/Footer";
 import { Header } from "@/components/Header";
-import { Card } from "@/components/ui/card";
+import ReferenceList from "@/components/Ref";
+import References from "@/components/References";
 
 export function ReferencePage() {
   return (
     <>
-      <Card className="flex flex-col gap-10 w-full h-screen border-none">
-        <Card className="flex flex-col gap-10 w-full">
+      <div className="flex flex-col w-full px-2 place-items-center">
+        <div className="pb-4 w-full">
           <Header />
-        </Card>
-        <Card className="flex flex-col place-items-center justify-center h-screen border-none">
-          <h1 className="font-roboto font-extrabold text-6xl italic opacity-80 hover:opacity-100 select-none text-shortTx md:text-largeTx text-center">
-            This is Reference Page
-          </h1>
-        </Card>
-      </Card>
+        </div>
+        <References />
+        <div className="px-2 w-full">
+          <ReferenceList />
+        </div>
+        <div className="w-full p-2">
+          <Footer />
+        </div>
+      </div>
     </>
   );
 }

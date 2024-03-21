@@ -35,7 +35,7 @@ export function TechIcons() {
         <Avatar>
           <AvatarImage
             src="https://github.com/react-router.png"
-            alt="@react-routern"
+            alt="@react-router"
           />
           <AvatarFallback>RR</AvatarFallback>
         </Avatar>
