@@ -78,8 +78,6 @@ export function MyWebsite() {
         <div className="font-mono text-xl md:text-3xl h-12 flex flex-col justify-center place-items-center">
           <div>Chat GPT</div>
         </div>
-
-        <div className="border-b w-full m-4 border-gray-700"></div>
       </Card>
     </>
   );
