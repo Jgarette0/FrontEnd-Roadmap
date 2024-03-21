@@ -120,16 +120,16 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Legal and Policies
+              Philippines
             </a>
-            <span>© Abangan</span>
+            <span>©Abangan</span>
             <a
               className="hover:underline"
               href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Philippines
+              2024
             </a>
           </div>
         </div>
