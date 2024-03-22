@@ -12,7 +12,11 @@ function DownloadPdf() {
   };
 
   return (
-    <Button className="p-2 mt-2" variant="secondary" onClick={handleDownload}>
+    <Button
+      className=" md:mr-0 mt-2"
+      variant="secondary"
+      onClick={handleDownload}
+    >
       <p className="font-mono mr-2 text-xl hidden md:block">Download</p>
       <Download />
     </Button>

@@ -5,16 +5,9 @@ import "../styles/global.css";
 export function LayoutRoadmap() {
   return (
     <>
-      <Button
-        variant="secondary"
-        className="font-mono w-32 h-8 md:hidden fixed right-4 top-24 p-2 text-center"
-      >
-        Zoom-in to see
-      </Button>
-
-      <div className="try flex flex-col place-items-center justify-start box-border">
+      <div className="try flex flex-col place-items-center justify-start">
         <div className="flex flex-col  md:top-20 ">
-          <div className="h-3000 flex flex-col ">
+          <div className=" flex flex-col ">
             <div className="0 h-226 flex flex-col place-items-center justify-end gap-2 ">
               <Card className=" md:h-16 border-dotted border-l-4 rounded mb-2" />
               <div className=" text-4xl">Front-End</div>
@@ -324,10 +317,10 @@ export function LayoutRoadmap() {
                     </Button>
                   </div>
                   <Button className="w-48" variant="outline">
-                    Testing your Apps
+                    Content Security Policy
                   </Button>
                   <Button className="w-48" variant="outline">
-                    Testing your Apps
+                    OWASP Security Risk
                   </Button>
                 </div>
                 <div className="w-300 flex flex-col place-items-left justify-center h-48 ">
@@ -620,13 +613,13 @@ export function LayoutRoadmap() {
                 <div className="flex flex-row  ">
                   <div className="ml-52 w-64 h-48  flex flex-col place-items-center justify-end gap-2">
                     <Button className="w-40" variant="outline">
-                      PRPL Pattern
+                      Flutter
                     </Button>
                     <Button className="w-40" variant="outline">
-                      Rail Modern
+                      Electron
                     </Button>
                     <Button className="w-40" variant="outline">
-                      Performance Metrics
+                      Tauri
                     </Button>
                   </div>
                   <div className="flex flex-row justify-center w-48 ">
@@ -639,13 +632,13 @@ export function LayoutRoadmap() {
                       </div>
                       <div className="mr-3 flex flex-col gap-2">
                         <Button className="w-40" variant="outline">
-                          PRPL Pattern
+                          Next.js
                         </Button>
                         <Button className="w-40" variant="outline">
-                          Rail Modern
+                          Remix
                         </Button>
                         <Button className="w-40" variant="outline">
-                          Performance Metrics
+                          Astro
                         </Button>
                       </div>
                     </div>
@@ -665,17 +658,17 @@ export function LayoutRoadmap() {
                 </div>
                 <div className="flex flex-row ml-64  place-items-start00 ">
                   <div className="flex flex-col justify-center gap-2">
-                    <Button className="w-44"> Progressive Web Apps</Button>
+                    <Button className="w-44"> Desktop Application</Button>
                   </div>
                   <div className="flex flex-col justify-center mt-4">
                     <Card className="w-12   border-b-4 h-1 rounded" />
                   </div>
                   <div className="flex flex-col justify-center gap-2">
-                    <Button className="w-44"> Progressive Web Apps</Button>
+                    <Button className="w-44"> Mobile Application</Button>
                   </div>
                   <Card className="w-8 ml-1 border-dotted mt-4 border-b-4 h-1 rounded" />
                   <Button className="w-44" variant="outline">
-                    Progressive Web Apps
+                    React Native
                   </Button>
                 </div>
               </div>
@@ -687,10 +680,10 @@ export function LayoutRoadmap() {
                   <div className="w-40"></div>
                   <div className="flex flex-col gap-2 w-64 align-items-end  pb-2">
                     <Button className="w-44" variant="outline">
-                      Progressive Web Apps
+                      Flutter
                     </Button>
                     <Button className="w-44" variant="outline">
-                      Progressive Web Apps
+                      Native Script
                     </Button>
                   </div>
                 </div>
@@ -703,8 +696,8 @@ export function LayoutRoadmap() {
                 <Card className="w-450 h-36 text-center flex flex-col justify-center gap-2">
                   Continue Learning with following relevant tracks
                   <div className="flex flex-row place-items-center justify-center gap-2">
-                    <Button className="w-44"> Progressive Web Apps</Button>
-                    <Button className="w-44"> Progressive Web Apps</Button>
+                    <Button className="w-44"> TypeScript Roadmap</Button>
+                    <Button className="w-44"> Node.js Roadmap</Button>
                   </div>
                 </Card>
               </div>

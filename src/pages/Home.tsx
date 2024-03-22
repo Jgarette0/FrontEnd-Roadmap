@@ -13,7 +13,7 @@ export default function HomePage() {
         <div className=" w-full flex flex-col place-items-center py-48 md:py-0 md:h-screen md:justify-center justify-center">
           <Introduction />
         </div>
-        <div className="md:hidden">
+        <div className="flex flex-col place-items-center md:hidden">
           <Footer />
         </div>
       </Card>

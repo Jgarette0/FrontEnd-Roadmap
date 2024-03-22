@@ -11,7 +11,9 @@ export function AboutPage() {
         <Header />
         <ThisIsMe />
         <MyWebsite />
-        <Footer />
+        <div className="flex flex-col place-items-center">
+          <Footer />
+        </div>
       </Card>
     </>
   );
