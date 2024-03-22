@@ -14,8 +14,7 @@ export function ThisIsMe() {
             Hello, I'm Jilian Garette,
           </div>
           <div className="font-mono text-center text-sm md:text-1xl text-justify">
-            currently in my third year pursuing a degree in Information
-            Technology at Consolatrix College of Toledo City. In my free time, I
+            a third-year Information Technology student. In my free time, I
             enjoy reading Manhwa, watching TV shows, listening to music, and
             learning programming.
           </div>
