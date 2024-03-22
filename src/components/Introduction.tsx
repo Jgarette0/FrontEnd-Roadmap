@@ -8,7 +8,7 @@ export function Introduction() {
         </div>
       </h1>
       <h3 className="md:font-mono md:text-3xl word-spacing-2 italic md:mt-3 opacity-70 select-none">
-        Consolatric College of Toledo City Inc,
+        Poblacion, Pinamungajan, Cebu
       </h3>
     </>
   );
