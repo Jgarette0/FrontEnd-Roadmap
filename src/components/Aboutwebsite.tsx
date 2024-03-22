@@ -18,7 +18,7 @@ export function MyWebsite() {
             <div className="font-mono text-xl md:text-3xl underline hover:italic h-12 flex flex-col justify-center">
               <Link to="/Roadmap">✨Front-End Roadmap</Link>
             </div>
-            <div className="text-l md:text-2xl font-roboto text-justify indent-4">
+            <div className="text-l md:text-2xl font-roboto text-justify">
               This page is dedicated to providing a front-end roadmap, a
               sequential guide, whether you're just starting out or looking to
               expand your skills. Here, you'll find a curated list of topics and
@@ -38,7 +38,7 @@ export function MyWebsite() {
                 <ExternalLink />
               </div>
             </div>
-            <div className="text-l md:text-2xl font-roboto  indent-2">
+            <div className="text-l md:text-2xl font-roboto ">
               The photography portfolio from Foundation Week was part of the web
               development subject.
             </div>
@@ -46,22 +46,22 @@ export function MyWebsite() {
           <div className="flex flex-col gap-1">
             <div className="font-mono text-xl md:text-3xl hover:italic h-12 flex flex-col justify-center">
               <Button
-                className="flex flex-row w-48 font-mono text-xl md:text-3xl  h-12 justify-center pl-2 "
-                variant="outline"
+                className="flex flex-row w-28 md:w-44 font-mono text-xl  md:text-3xl  h-12 justify-center pl-2 underline hover:italic"
+                variant="link"
               >
                 🔒
                 <SignInButton />
               </Button>
             </div>
-            <div className="text-l md:text-2xl font-roboto text-justify indent-4">
-              Integrate a secure third-party APIs like Clerk.io for a seamless
-              sign-in and registration experience. Gmail Facebook, or GitHub
-              login options.
+            <div className="text-l md:text-2xl font-roboto text-justify">
+              Integrated a third-party APIs like Clerk.io for a seamless sign-in
+              and registration experience, offering login options via Gmail,
+              Facebook, or GitHub.
             </div>
           </div>
           <div className="flex flex-col gap-1">
             <div className="font-mono text-xl md:text-3xl h-12 flex flex-col justify-center place-items-center">
-              <div>🔥Programming Language Used</div>
+              <div>Programming Language Used</div>
             </div>
             <a
               href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
