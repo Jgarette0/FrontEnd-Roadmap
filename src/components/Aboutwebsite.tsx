@@ -3,14 +3,13 @@ import { Card } from "./ui/card";
 import { ExternalLink } from "lucide-react";
 import { RiOpenaiFill } from "react-icons/ri";
 import { Button } from "./ui/button";
-import { SignInButton } from "@clerk/clerk-react";
 export function MyWebsite() {
   return (
     <>
       <Card className="px-4 border-none">
-        <Card className="flex flex-col w-full h-350 border-none md:px-0">
+        <Card className="flex flex-col w-full h-full border-none md:px-0">
           <div className="w-full flex flex-col place-items-center justify-center text-2xl md:text-5xl hover:opacity-80 h-32 select-none font-extrabold font-sans tracking-tighter">
-            About My Website
+            What You Can Find on This Website:
           </div>
         </Card>
         <div className="flex flex-col gap-8">
@@ -20,16 +19,22 @@ export function MyWebsite() {
             </div>
             <div className="text-l md:text-2xl font-roboto text-justify">
               This page is dedicated to providing a front-end roadmap, a
-              sequential guide, whether you're just starting out or looking to
-              expand your skills. Here, you'll find a curated list of topics and
-              technologies to learn.
+              sequential guide for mastering front-end development, inspired by
+              <a
+                href="http://roadmap.sh/frontend"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="link">Roadmap.sh</Button>
+              </a>
+              .
             </div>
           </div>
           <div className="flex flex-col gap-1">
             <div className="font-mono text-xl md:text-3xl underline hover:italic h-12 flex flex-col justify-center">
               <div className="flex flex-row gap-1">
                 <a
-                  href="https://abanganjilian.vercel.app"
+                  href="https://gallery.jiliangarette.xyz/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -39,44 +44,164 @@ export function MyWebsite() {
               </div>
             </div>
             <div className="text-l md:text-2xl font-roboto ">
-              The photography portfolio from Foundation Week was part of the web
-              development subject.
+              This minimal photography portfolio from CCTC Foundation Week was
+              part of a web development subject project.
             </div>
           </div>
           <div className="flex flex-col gap-1">
-            <div className="font-mono text-xl md:text-3xl hover:italic h-12 flex flex-col justify-center">
-              <Button
-                className="flex flex-row w-28 md:w-44 font-mono text-xl  md:text-3xl  h-12 justify-center pl-2 underline hover:italic"
-                variant="link"
-              >
-                🔒
-                <SignInButton />
-              </Button>
-            </div>
-            <div className="text-l md:text-2xl font-roboto text-justify">
-              Integrated a third-party APIs like Clerk.io for a seamless sign-in
-              and registration experience, offering login options via Gmail,
-              Facebook, or GitHub.
-            </div>
-          </div>
-          <div className="flex flex-col gap-1">
-            <div className="font-mono text-xl md:text-3xl h-12 flex flex-col justify-center place-items-center">
-              <div>Programming Language Used</div>
-            </div>
-            <a
-              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="flex flex-row gap-4 place-items-center justify-center">
-                <RiOpenaiFill className="size-28" />
+            <div className="font-mono text-xl md:text-3xl underline hover:italic h-12 flex flex-col justify-center">
+              <div className="flex flex-row gap-1">
+                <a
+                  href="https://gallery.jiliangarette.xyz/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  📷Photography
+                </a>
+                <ExternalLink />
               </div>
-            </a>
+            </div>
+            <div className="text-l md:text-2xl font-roboto ">
+              This minimal photography portfolio from CCTC Foundation Week was
+              part of a web development subject project.
+            </div>
           </div>
-        </div>
+          <div className="flex flex-col gap-1">
+            <div className="font-mono text-xl md:text-3xl underline hover:italic h-12 flex flex-col justify-center">
+              <div className="flex flex-row gap-1">
+                <a
+                  href="https://gallery.jiliangarette.xyz/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  📷Photography
+                </a>
+                <ExternalLink />
+              </div>
+            </div>
+            <div className="text-l md:text-2xl font-roboto ">
+              This minimal photography portfolio from CCTC Foundation Week was
+              part of a web development subject project.
+            </div>
+          </div>
+          <div className="flex flex-col gap-1">
+            <div className="font-mono text-xl md:text-3xl underline hover:italic h-12 flex flex-col justify-center">
+              <div className="flex flex-row gap-1">
+                <a
+                  href="https://gallery.jiliangarette.xyz/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  📷Photography
+                </a>
+                <ExternalLink />
+              </div>
+            </div>
+            <div className="text-l md:text-2xl font-roboto ">
+              This minimal photography portfolio from CCTC Foundation Week was
+              part of a web development subject project.
+            </div>
+          </div>
+          <div className="flex flex-col gap-1">
+            <div className="font-mono text-xl md:text-3xl underline hover:italic h-12 flex flex-col justify-center">
+              <div className="flex flex-row gap-1">
+                <a
+                  href="https://gallery.jiliangarette.xyz/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  📷Photography
+                </a>
+                <ExternalLink />
+              </div>
+            </div>
+            <div className="text-l md:text-2xl font-roboto ">
+              This minimal photography portfolio from CCTC Foundation Week was
+              part of a web development subject project.
+            </div>
+          </div>
+          <div className="flex flex-col gap-1">
+            <div className="font-mono text-xl md:text-3xl flex flex-col justify-center place-items-center">
+              <Card className="flex flex-col w-full h-full border-none md:px-0">
+                <div className="w-full flex flex-col place-items-center justify-center text-2xl md:text-4xl hover:opacity-80 h-32 select-none font-extrabold font-sans tracking-tighter">
+                  Technologies:
+                </div>
+                <Card className="border-none flex flex-col place-items-center gap-2">
+                  <div className="flex gap-x-2 place-items-center justify-center">
+                    <img
+                      src="https://skillicons.dev/icons?i=html"
+                      height="100"
+                      alt="html5 logo"
+                    />
 
-        <div className="font-mono text-xl md:text-3xl h-12 flex flex-col justify-center place-items-center">
-          <div>Chat GPT</div>
+                    <img
+                      src="https://skillicons.dev/icons?i=css"
+                      height="100"
+                      alt="css3 logo"
+                    />
+
+                    <img
+                      src="https://skillicons.dev/icons?i=js"
+                      height="100"
+                      alt="javascript logo"
+                    />
+
+                    <img
+                      src="https://skillicons.dev/icons?i=php"
+                      height="100"
+                      alt="php logo"
+                    />
+                  </div>
+
+                  <div className="flex gap-x-2 place-items-center justify-center">
+                    <img
+                      src="https://skillicons.dev/icons?i=tailwind"
+                      height="100"
+                      alt="tailwindcss logo"
+                    />
+
+                    <img
+                      src="https://skillicons.dev/icons?i=react"
+                      height="100"
+                      alt="react logo"
+                    />
+
+                    <img
+                      src="https://skillicons.dev/icons?i=mysql"
+                      height="100"
+                      alt="mysql logo"
+                    />
+                  </div>
+
+                  <div className="flex gap-x-2 place-items-center justify-center">
+                    <img
+                      src="https://skillicons.dev/icons?i=github"
+                      height="85"
+                      alt="github"
+                    />
+
+                    <img
+                      src="https://skillicons.dev/icons?i=vscode"
+                      height="85"
+                      alt="vscode logo"
+                    />
+
+                    <img
+                      src="https://skillicons.dev/icons?i=git"
+                      height="85"
+                      alt="git logo"
+                    />
+
+                    <img
+                      src="https://skillicons.dev/icons?i=vite"
+                      height="85"
+                      alt="vite logo"
+                    />
+                  </div>
+                </Card>
+              </Card>
+            </div>
+          </div>
         </div>
       </Card>
     </>

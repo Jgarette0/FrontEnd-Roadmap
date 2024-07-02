@@ -7,7 +7,7 @@ import { Spotlight } from "@/components/ui/spotlight";
 export default function HomePage() {
   return (
     <>
-      <Card className="flex flex-col gap-10 w-full border-red-500 md:h-screen md:overflow-hidden">
+      <Card className="flex flex-col gap-10 w-full border-none md:h-screen md:overflow-hidden">
         <Header />
         <Spotlight className="" fill="white" />
         <div className=" w-full flex flex-col place-items-center py-48 md:py-0 md:h-screen md:justify-center justify-center">

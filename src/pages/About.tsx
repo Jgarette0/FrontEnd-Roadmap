@@ -7,7 +7,7 @@ import { Card } from "@/components/ui/card";
 export function AboutPage() {
   return (
     <>
-      <Card className="border-none w-full">
+      <Card className="border-none w-ful h-full">
         <Header />
         <ThisIsMe />
         <MyWebsite />
