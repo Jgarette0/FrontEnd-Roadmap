@@ -11,15 +11,12 @@ export function ThisIsMe() {
         />
         <div className="flex flex-col gap-y-1">
           <div className="font-roboto font-extrabold italic text-2xl md:text-5xl ">
-            Hey There! I'm Jilian
+            Hey There! I'm Jilian,
           </div>
           <div className="font-mono text-sm md:text-1xl text-justify">
-            a passionate learner in the programming field with a love for
-            front-end development. I'm currently in my third year of college,
-            pursuing a Bachelor's degree in Information Technology. In my free
-            time, I enjoy diving into the world of manhwa, immersing myself in
-            music, savoring the rich flavors of coffee, and exploring new
-            programming concepts.
+            a Bachelor's degree student in Information Technology with a keen
+            interest in front-end development. In my free time, I enjoy reading
+            manhwa, listening to music, and learning programming.
           </div>
         </div>
       </Card>
