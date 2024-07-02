@@ -93,7 +93,7 @@ export default function Footer() {
               </a>
               <a
                 className="hover:underline"
-                href="https://thisisnotajumpscare.com/"
+                href="https://web.facebook.com/jiliangarette/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -101,7 +101,7 @@ export default function Footer() {
               </a>
               <a
                 className="hover:underline"
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                href="https://www.instagram.com/i.garette/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
