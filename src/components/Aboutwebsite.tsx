@@ -14,19 +14,19 @@ export function MyWebsite() {
         <div className="flex flex-col gap-8">
           <div className="flex flex-col gap-1">
             <div className="font-mono text-xl md:text-3xl underline hover:italic h-12 flex flex-col justify-center">
-              <Link to="/Roadmap">✨Front-End Roadmap</Link>
+              <Link to="/Projects">🏸AB Badminton</Link>
             </div>
             <div className="text-l md:text-2xl font-roboto text-justify">
-              This page is dedicated to providing a front-end roadmap, a
-              sequential guide for mastering front-end development, inspired by
-              <a
-                href="http://roadmap.sh/frontend"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button variant="link">Roadmap.sh</Button>
-              </a>
-              .
+              A website showcasing all the information about AB badminton
+              training camp.
+            </div>
+          </div>
+          <div className="flex flex-col gap-1">
+            <div className="font-mono text-xl md:text-3xl underline hover:italic h-12 flex flex-col justify-center">
+              <Link to="/Projects">💻Portfolio</Link>
+            </div>
+            <div className="text-l md:text-2xl font-roboto text-justify">
+              A portfolio website showcasing my web development projects.
             </div>
           </div>
           <div className="flex flex-col gap-1">
@@ -49,80 +49,25 @@ export function MyWebsite() {
           </div>
           <div className="flex flex-col gap-1">
             <div className="font-mono text-xl md:text-3xl underline hover:italic h-12 flex flex-col justify-center">
-              <div className="flex flex-row gap-1">
-                <a
-                  href="https://gallery.jiliangarette.xyz/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  📷Photography
-                </a>
-                <ExternalLink />
-              </div>
+              <Link to="/Projects">📝Personal Blog</Link>
             </div>
-            <div className="text-l md:text-2xl font-roboto ">
-              This minimal photography portfolio from CCTC Foundation Week was
-              part of a web development subject project.
+            <div className="text-l md:text-2xl font-roboto text-justify">
+              A website for creating and storing blogs locally.
             </div>
-          </div>
+          </div>{" "}
           <div className="flex flex-col gap-1">
             <div className="font-mono text-xl md:text-3xl underline hover:italic h-12 flex flex-col justify-center">
-              <div className="flex flex-row gap-1">
-                <a
-                  href="https://gallery.jiliangarette.xyz/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  📷Photography
-                </a>
-                <ExternalLink />
-              </div>
+              <Link to="/Projects">🏫Vacant Classroom Finder</Link>
             </div>
-            <div className="text-l md:text-2xl font-roboto ">
-              This minimal photography portfolio from CCTC Foundation Week was
-              part of a web development subject project.
-            </div>
-          </div>
-          <div className="flex flex-col gap-1">
-            <div className="font-mono text-xl md:text-3xl underline hover:italic h-12 flex flex-col justify-center">
-              <div className="flex flex-row gap-1">
-                <a
-                  href="https://gallery.jiliangarette.xyz/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  📷Photography
-                </a>
-                <ExternalLink />
-              </div>
-            </div>
-            <div className="text-l md:text-2xl font-roboto ">
-              This minimal photography portfolio from CCTC Foundation Week was
-              part of a web development subject project.
-            </div>
-          </div>
-          <div className="flex flex-col gap-1">
-            <div className="font-mono text-xl md:text-3xl underline hover:italic h-12 flex flex-col justify-center">
-              <div className="flex flex-row gap-1">
-                <a
-                  href="https://gallery.jiliangarette.xyz/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  📷Photography
-                </a>
-                <ExternalLink />
-              </div>
-            </div>
-            <div className="text-l md:text-2xl font-roboto ">
-              This minimal photography portfolio from CCTC Foundation Week was
-              part of a web development subject project.
+            <div className="text-l md:text-2xl font-roboto text-justify">
+              A platform for teachers to select and occupy classrooms, and for
+              students to view available and occupied rooms.
             </div>
           </div>
           <div className="flex flex-col gap-1">
             <div className="font-mono text-xl md:text-3xl flex flex-col justify-center place-items-center">
               <Card className="flex flex-col w-full h-full border-none md:px-0">
-                <div className="w-full flex flex-col place-items-center justify-center text-2xl md:text-4xl hover:opacity-80 h-32 select-none font-extrabold font-sans tracking-tighter">
+                <div className="w-full flex flex-col place-items-center justify-center text-2xl md:text-4xl hover:opacity-80 h-32 select-none font-bold font-sans tracking-tighter">
                   Technologies:
                 </div>
                 <Card className="border-none flex flex-col place-items-center gap-2 mb-2">

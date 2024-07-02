@@ -102,6 +102,53 @@ const ProjectLayout = () => {
         <div className="flex flex-col gap-2 px-4">
           <div className="flex flex-row w-full justify-between">
             <div className="font-roboto text-lg md:text-4xl font-semibold  pt-2">
+              Photography Portfolio
+            </div>
+            <div className="flex flex-row">
+              <div className="flex gap-x-1 md:gap-x-2 place-items-center justify-center">
+                <img
+                  className="h-8 md:h-12"
+                  src="https://skillicons.dev/icons?i=react"
+                  alt="github"
+                />
+
+                <img
+                  src="https://skillicons.dev/icons?i=tailwind"
+                  className="h-8 md:h-12"
+                  alt="vscode logo"
+                />
+              </div>
+            </div>
+          </div>
+
+          <Card className="md:rounded-[20px] rounded-[10px] overflow-hidden">
+            <iframe
+              className="h-[500px] md:h-[600px]"
+              src="https://gallery.jiliangarette.xyz"
+              width="100%"
+            ></iframe>
+          </Card>
+          <div className="flex flex-row w-full justify-end gap-1">
+            <a
+              href="https://gallery.jiliangarette.xyz"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              <Button variant="outline">Live Demo</Button>
+            </a>
+            <a
+              href="https://github.com/Jgarette0/PHOTOGRAPHY-portfolio"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="outline">Repository</Button>
+            </a>
+          </div>
+        </div>
+        <div className="flex flex-col gap-2 px-4">
+          <div className="flex flex-row w-full justify-between">
+            <div className="font-roboto text-lg md:text-4xl font-semibold  pt-2">
               Personal Blog
             </div>
             <div className="flex flex-row">
