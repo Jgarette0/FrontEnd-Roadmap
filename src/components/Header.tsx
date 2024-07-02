@@ -1,5 +1,4 @@
 import { ModeToggle } from "@/components/ModeToggle";
-import Authentication from "@/pages/Auth";
 import { Button } from "./ui/button";
 import { BreadcrumbNav } from "./Breadcrumb";
 import Technologies from "./Technology";
@@ -10,8 +9,8 @@ export function Header() {
         <div className="flex flex-row-reverse md:flex-row-reverse place-items-center gap-2">
           <ModeToggle />
           <Technologies />
-          <Button variant="secondary" className="">
-            <Authentication />
+          <Button variant="outline" className="">
+            Github
           </Button>
         </div>
         <div className="flex flex-row place-items-center justify-center mt-2 md:mt-0 bg-none">
