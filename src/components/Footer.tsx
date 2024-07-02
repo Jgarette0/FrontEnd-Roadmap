@@ -22,6 +22,15 @@ export default function Footer() {
 
               <li className="font-bold">CONTACT</li>
               <li className="font-bold">09661808543</li>
+              <li>
+                <a
+                  className="hover:underline flex flex-row gap-1"
+                  href="mailto:jiliangarette@gmail.com"
+                >
+                  jiliangarette@gmail.com
+                  <ExternalLink size="1rem" />
+                </a>
+              </li>
             </ul>
           </div>
           <div>
@@ -46,15 +55,7 @@ export default function Footer() {
                   <ExternalLink size="1rem" />
                 </a>
               </li>
-              <li>
-                <a
-                  className="hover:underline flex flex-row gap-1"
-                  href="mailto:jiliangarette@gmail.com"
-                >
-                  jiliangarette@gmail.com
-                  <ExternalLink size="1rem" />
-                </a>
-              </li>
+
               <li className="font-bold">OTHER</li>
               <li className="hover:underline">
                 <a
