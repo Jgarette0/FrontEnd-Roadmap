@@ -20,8 +20,8 @@ export function BreadcrumbNav() {
     <Breadcrumb>
       <BreadcrumbList>
         <BreadcrumbItem>
-          <Link to="/Roadmap">
-            <BreadcrumbLink href="/">Roadmap</BreadcrumbLink>
+          <Link to="/Projects">
+            <BreadcrumbLink href="/">Projects</BreadcrumbLink>
           </Link>
         </BreadcrumbItem>
         <BreadcrumbSeparator />
@@ -37,6 +37,9 @@ export function BreadcrumbNav() {
               </Link>
               <Link to="/profiles">
                 <DropdownMenuItem>Playground</DropdownMenuItem>
+              </Link>
+              <Link to="/Roadmap">
+                <DropdownMenuItem>Roadmap</DropdownMenuItem>
               </Link>
 
               <DropdownMenuItem>

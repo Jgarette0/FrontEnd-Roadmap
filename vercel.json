@@ -4,6 +4,7 @@
     { "src": "/Home", "dest": "/" },
     { "src": "/Reference", "dest": "/" },
     { "src": "/Photography", "dest": "/" },
+    { "src": "/Projects", "dest": "/" },
     { "src": "/Roadmap", "dest": "/" },
     { "src": "/Profiles", "dest": "/" },
     { "src": "/Profiles/:profileId", "dest": "/" },

@@ -13,6 +13,7 @@ import PhotographyPage from "./pages/Photography";
 import RoadmapPage from "./pages/Roadmap";
 import LoadingSpinner from "./components/LoadingSpinner";
 import ReferencePage from "./pages/Reference";
+import ProjectsPage from "./pages/Projects";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -41,6 +42,10 @@ const App = () => {
     {
       path: "/Photography",
       element: <PhotographyPage />,
+    },
+    {
+      path: "/Projects",
+      element: <ProjectsPage />,
     },
     {
       path: "/Roadmap",

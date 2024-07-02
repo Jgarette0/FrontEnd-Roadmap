@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { Card } from "./ui/card";
 import { ExternalLink } from "lucide-react";
-import { RiOpenaiFill } from "react-icons/ri";
 import { Button } from "./ui/button";
 export function MyWebsite() {
   return (
@@ -126,7 +125,7 @@ export function MyWebsite() {
                 <div className="w-full flex flex-col place-items-center justify-center text-2xl md:text-4xl hover:opacity-80 h-32 select-none font-extrabold font-sans tracking-tighter">
                   Technologies:
                 </div>
-                <Card className="border-none flex flex-col place-items-center gap-2">
+                <Card className="border-none flex flex-col place-items-center gap-2 mb-2">
                   <div className="flex gap-x-2 place-items-center justify-center">
                     <img
                       src="https://skillicons.dev/icons?i=html"
