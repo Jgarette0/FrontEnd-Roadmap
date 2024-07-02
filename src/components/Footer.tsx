@@ -21,7 +21,7 @@ export default function Footer() {
               </li>
 
               <li className="font-bold">CONTACT</li>
-              <li className="font-bold">0123456789</li>
+              <li className="font-bold">09661808543</li>
             </ul>
           </div>
           <div>
@@ -49,23 +49,21 @@ export default function Footer() {
               <li>
                 <a
                   className="hover:underline flex flex-row gap-1"
-                  href="https://drive.google.com/drive/folders/1swH7RZnbFfqCLt4pHTpQYw9tdHB373Sb?usp=sharing"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="mailto:jiliangarette@gmail.com"
                 >
-                  Google Drive
+                  jiliangarette@gmail.com
                   <ExternalLink size="1rem" />
                 </a>
               </li>
               <li className="font-bold">OTHER</li>
               <li className="hover:underline">
                 <a
-                  href="https://abanganjilian.vercel.app"
+                  href="https://pinamungajan.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <div className="flex flex-row gap-1">
-                    Photography <ExternalLink size="1rem" />
+                    React Template <ExternalLink size="1rem" />
                   </div>
                 </a>
               </li>
